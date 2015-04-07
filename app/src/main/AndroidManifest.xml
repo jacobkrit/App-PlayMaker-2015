@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.playmakerjacob1">
+    <uses-sdk android:minSdkVersion="11" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/run_man"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".FootBall"
+            android:label="@string/button_foot_ball"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.playmakerjacob1.MainPage" />
+        </activity>
+
+        <activity
+            android:name=".BasketBall"
+            android:label="@string/button_basket_ball"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.playmakerjacob1.MainPage" />
+        </activity>
+
+
+        <activity
+            android:name=".Tichu"
+            android:label="@string/button_tichu"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.playmakerjacob1.MainPage" />
+        </activity>
+
+        <activity
+            android:name=".Blackgammon"
+            android:label="@string/button_blackgammon"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.playmakerjacob1.MainPage" />
+        </activity>
+
+        <activity
+            android:name=".LegueOfLegends"
+            android:label="@string/button_legue_of_legends"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.playmakerjacob1.MainPage" />
+        </activity>
+
+        <activity
+            android:name=".CounterStrike"
+            android:label="@string/button_counter_strike"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.playmakerjacob1.MainPage" />
+        </activity>
+
+    </application>
+
+</manifest>

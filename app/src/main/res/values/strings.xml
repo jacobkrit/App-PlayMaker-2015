@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PlayMaker</string>
+    <string name="button_basket_ball">BasketBall</string>
+    <string name="button_foot_ball">FootBall</string>
+    <string name="button_tichu">Tichu</string>
+    <string name="button_blackgammon">Blackgammon</string>
+    <string name="button_legue_of_legends">Legue of Legends</string>
+    <string name="button_counter_strike">Counter Strike</string>
+</resources>
